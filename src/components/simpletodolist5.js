@@ -51,7 +51,7 @@ export default function SimpleTodosList() {
 
   const editTodo = (id) => {
     console.log("edit triggered");
-    window.location = '/update/' + id;
+    window.location = 'https://merntest-bkn2.onrender.com/update/' + id;
   };
 
   return (
