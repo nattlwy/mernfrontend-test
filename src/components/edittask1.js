@@ -61,7 +61,7 @@ export default function EditTask() {
     //         className="btn btn-primary"
     //       />
     //     </div>
-      </form>
-    </div>
+    //   </form>
+    // </div>
   );
 }
