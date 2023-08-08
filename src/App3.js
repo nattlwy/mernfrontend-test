@@ -20,7 +20,7 @@ export default function App3() {
       {/* <div className="container"> */}
         <Route path="/" exact element={<SimpleTodosList />} />
         <Route path="/create" element={<CreateTask />} />
-        <Route path="/update" element={<EditTask />} />
+        <Route path="/update/:id" element={<EditTask />} />
       {/* </div> */}
       </Routes>
     </BrowserRouter>
