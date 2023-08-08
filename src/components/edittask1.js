@@ -36,30 +36,31 @@ export default function EditTask() {
   };
 
   return (
-    <div>
-      <Navbar />
-      <h3>Edit Task</h3>
-      <form onSubmit={onSubmit}>
-        <div className="form-group">
-          <label>Task: </label>
-          <input
-            type="text"
-            required
-            className="form-control"
-            name="testactivity"
-            value={activity}
-            onChange={(e) => setOnChangeActivity(e.target.value)}
-          />
-        </div>
-        <br></br>
+    <div>Testing</div>
+    // <div>
+    //   <Navbar />
+    //   <h3>Edit Task</h3>
+    //   <form onSubmit={onSubmit}>
+    //     <div className="form-group">
+    //       <label>Task: </label>
+    //       <input
+    //         type="text"
+    //         required
+    //         className="form-control"
+    //         name="testactivity"
+    //         value={activity}
+    //         onChange={(e) => setOnChangeActivity(e.target.value)}
+    //       />
+    //     </div>
+    //     <br></br>
 
-        <div className="form-group">
-          <input
-            type="submit"
-            value="Update Activity Log"
-            className="btn btn-primary"
-          />
-        </div>
+    //     <div className="form-group">
+    //       <input
+    //         type="submit"
+    //         value="Update Activity Log"
+    //         className="btn btn-primary"
+    //       />
+    //     </div>
       </form>
     </div>
   );
