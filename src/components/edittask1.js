@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { useParams } from "react-router-dom";
 import axios from 'axios';
 import Navbar from './navbar';
 import url from '../Constants';
 
 export default function EditTask() {
-  const id = window.location.toString().split('/')[
-    window.location.toString().split('/').length - 1
-  ];
+
+  const { id } = useParams();
 
   const [activity, setOnChangeActivity] = useState([]);
   useEffect(() => {
